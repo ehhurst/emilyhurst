@@ -2,7 +2,7 @@
 
 export default function Intro() {
     return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-10 bg-gray-100">
+    <main className="flex flex-row items-center justify-center min-h-screen p-10 bg-gray-100">
       <div className="text-2xl font-bold p-6 max-w-2xl">
         <p>Hi there, my name is{" "}
           <span className="text-teal-500 inline-flex">Emily Hurst</span>.

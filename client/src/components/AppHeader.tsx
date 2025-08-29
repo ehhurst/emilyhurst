@@ -10,14 +10,14 @@ export default function AppHeader() {
                 <nav>
                 <ul className="flex space-x-4 items-start">
                     <li><a href="/">Projects</a></li>
-                    <li><a href="/cv">CV</a></li>
                     <li><a href="/experience">Experience</a></li>
                     <li><a href="/extras">Extras</a></li>
                 </ul>
             </nav>
             </div>
-
+            
             <button type="button" className="border-3 border-solid p-3 rounded-lg transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 cursor-pointer">Contact Me</button>
+            <button type="button" className="border-3 border-solid p-3 rounded-lg transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 cursor-pointer">Download My CV</button>
         </header>
     );
 }
