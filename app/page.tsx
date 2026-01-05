@@ -1,8 +1,25 @@
 import Image from "next/image";
+import ProjectCard from "@/components/projects/ProjectCard";
+import {projects, Project}  from "@/lib/projects";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      <div>
+              {projects.map((project: Project) => (
+                <div key={project.name} className="max-w-md mb-6">
+                   <ProjectCard
+          key={project.name}
+          title={project.title}
+          description={project.description}
+          tags={project.tags}
+          image={project.image}
+          projectLink={project.href || ""}
+          repoLink={project.repo || ""}
+        /> </div>
+              ))}
+      </div>
+
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"
