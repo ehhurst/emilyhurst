@@ -6,6 +6,7 @@ export type Project = {
     name: string;
     title: string;
     description: string;
+    image: string
     tags: ProjectTag[];
     technologies: TechnologiesTag[];
     href?: string;
@@ -17,6 +18,7 @@ export const projects: Project[] = [
         name: "mcat-app",
         title: "MCAT Preparation App",
         description: "A comprehensive app to help students prepare for the MCAT exam with practice questions and study resources.",
+        image: "/images/mcat-app.png",
         tags: ["Healthcare", "Full-Stack"],
         technologies: ["React", "TypeScript", "Node.js", "AWS"],
         href: "https://mcatapp.example.com",
@@ -26,6 +28,7 @@ export const projects: Project[] = [
         name: "veterans-at-vt",
         title: "Veterans at VT Website",
         description: "A website dedicated to supporting veterans at Virginia Tech with resources, events, and community connections.",
+        image: "/images/veterans-at-vt.png",
         tags: ["Web Development", "Design"],
         technologies: ["React", "TypeScript", "GraphQL"],
         href: "https://veterans.vt.edu",
@@ -35,6 +38,7 @@ export const projects: Project[] = [
         name: "shelf-life",
         title: "ShelfLife: A Social Platform for Book Lovers",
         description: "A social platform for book lovers to share reviews, discover new books, and connect with others who share their passion.",
+        image: "/images/shelf-life.png",
         tags: ["Full-Stack", "Design"],
         technologies: ["React", "TypeScript", "Python","Flask", "SQLite"],
         href: "34.238.53.95:5173/",
