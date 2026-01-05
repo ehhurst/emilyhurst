@@ -29,8 +29,17 @@ export function DesktopNav() {
   return (
     <NavigationMenu>
       <NavigationMenuList className="gap-1">
+        
+        <NavigationMenuItem>
+          <NavLink href="/">Home</NavLink>
+        </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavLink href="/about">About</NavLink>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <NavLink href="/skills">Skills</NavLink>
         </NavigationMenuItem>
 
         {/* Projects dropdown */}
@@ -79,9 +88,7 @@ export function DesktopNav() {
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
-          <NavLink href="/skills">Skills</NavLink>
-        </NavigationMenuItem>
+
 
         <NavigationMenuItem>
           <NavLink href="/contact">Contact</NavLink>
