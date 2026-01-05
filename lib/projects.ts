@@ -25,7 +25,7 @@ export const projects: Project[] = [
     {
         name: "veterans-at-vt",
         title: "Veterans at VT Website",
-        description: "A website dedicated to supporting veterans at Virginia Tech with resources, events, and community connections.";
+        description: "A website dedicated to supporting veterans at Virginia Tech with resources, events, and community connections.",
         tags: ["Web Development", "Design"],
         technologies: ["React", "TypeScript", "GraphQL"],
         href: "https://veterans.vt.edu",
